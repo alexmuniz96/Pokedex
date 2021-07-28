@@ -1,0 +1,42 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background: #efefef;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card{
+  width: 150px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 10px #cac8c8;
+}
+
+h2, h3{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d1d0d0;
+}
+
+button{
+  margin-top: 20px;
+  background: #52B0FF;
+  border: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  cursor: pointer;
+  width: 150px;
+}
+button:hover{
+  filter: brightness(1.2);
+}
